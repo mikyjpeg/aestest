@@ -15,11 +15,9 @@ jobs:
       - name: Download submodules
         run: |
           git submodule update --init --recursive
-          find .
 
       - name: Compile the code
         run: |
-          # gcc -Wall -Wextra -g test.c rijndael.c -o test
           make
 
       - name: Run C tests
