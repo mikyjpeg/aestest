@@ -1,2 +1,5 @@
 *.o
 *.so
+test.dSYM
+main
+test
