@@ -1,0 +1,24 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     test
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_block, symObjAddr: 0x0, symBinAddr: 0x100001180, symSize: 0x60 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _print_block, symObjAddr: 0x0, symBinAddr: 0x100001180, symSize: 0x60 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _areCharArraysEqual, symObjAddr: 0x60, symBinAddr: 0x1000011E0, symSize: 0x70 }
+  - { offsetInCU: 0xEF, offset: 0xEF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD0, symBinAddr: 0x100001250, symSize: 0xF0D }
+  - { offsetInCU: 0x26, offset: 0x3CA, size: 0x8, addend: 0x0, symName: _sub_bytes, symObjAddr: 0x0, symBinAddr: 0x100002160, symSize: 0x50 }
+  - { offsetInCU: 0x4D, offset: 0x3F1, size: 0x8, addend: 0x0, symName: _s_box, symObjAddr: 0x2DD0, symBinAddr: 0x100005D90, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x41F, size: 0x8, addend: 0x0, symName: _r_con, symObjAddr: 0x2ED0, symBinAddr: 0x100005E90, symSize: 0x0 }
+  - { offsetInCU: 0x9C, offset: 0x440, size: 0x8, addend: 0x0, symName: _inv_s_box, symObjAddr: 0x2EE0, symBinAddr: 0x100005EA0, symSize: 0x0 }
+  - { offsetInCU: 0xAA, offset: 0x44E, size: 0x8, addend: 0x0, symName: _sub_bytes, symObjAddr: 0x0, symBinAddr: 0x100002160, symSize: 0x50 }
+  - { offsetInCU: 0xEA, offset: 0x48E, size: 0x8, addend: 0x0, symName: _shift_rows, symObjAddr: 0x50, symBinAddr: 0x1000021B0, symSize: 0xD0 }
+  - { offsetInCU: 0x11C, offset: 0x4C0, size: 0x8, addend: 0x0, symName: _mix_columns, symObjAddr: 0x120, symBinAddr: 0x100002280, symSize: 0x1040 }
+  - { offsetInCU: 0x15C, offset: 0x500, size: 0x8, addend: 0x0, symName: _expand_key, symObjAddr: 0x1160, symBinAddr: 0x1000032C0, symSize: 0x220 }
+  - { offsetInCU: 0x256, offset: 0x5FA, size: 0x8, addend: 0x0, symName: _add_round_key, symObjAddr: 0x1380, symBinAddr: 0x1000034E0, symSize: 0x50 }
+  - { offsetInCU: 0x2A4, offset: 0x648, size: 0x8, addend: 0x0, symName: _inverse_sub_bytes, symObjAddr: 0x13D0, symBinAddr: 0x100003530, symSize: 0x50 }
+  - { offsetInCU: 0x2E4, offset: 0x688, size: 0x8, addend: 0x0, symName: _inverse_shift_rows, symObjAddr: 0x1420, symBinAddr: 0x100003580, symSize: 0xD0 }
+  - { offsetInCU: 0x316, offset: 0x6BA, size: 0x8, addend: 0x0, symName: _inverse_mix_column, symObjAddr: 0x14F0, symBinAddr: 0x100003650, symSize: 0x12A0 }
+  - { offsetInCU: 0x368, offset: 0x70C, size: 0x8, addend: 0x0, symName: _inverse_mix_columns, symObjAddr: 0x2790, symBinAddr: 0x1000048F0, symSize: 0xC0 }
+  - { offsetInCU: 0x402, offset: 0x7A6, size: 0x8, addend: 0x0, symName: _aes_encrypt_block, symObjAddr: 0x2850, symBinAddr: 0x1000049B0, symSize: 0x2F0 }
+  - { offsetInCU: 0x526, offset: 0x8CA, size: 0x8, addend: 0x0, symName: _aes_decrypt_block, symObjAddr: 0x2B40, symBinAddr: 0x100004CA0, symSize: 0x28D }
+...

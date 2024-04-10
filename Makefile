@@ -7,7 +7,7 @@ main: rijndael.o main.c
 	$(CC) -o main main.c rijndael.o
 
 test: test.c
-	$(CC) -o test test.c rijndael.o
+	$(CC) -Wall -Wextra -g test.c rijndael.c -o test
 
 rijndael.o: rijndael.c rijndael.h
 	$(CC) -o rijndael.o -fPIC -c rijndael.c
