@@ -1,10 +1,13 @@
 CC ?= cc
 
 .PHONY: all
-all: main rijndael.so
+all: main rijndael.so test
 
 main: rijndael.o main.c
 	$(CC) -o main main.c rijndael.o
+
+test: test.c
+	$(CC) -o test test.c rijndael.o
 
 rijndael.o: rijndael.c rijndael.h
 	$(CC) -o rijndael.o -fPIC -c rijndael.c
