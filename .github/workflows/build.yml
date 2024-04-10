@@ -15,6 +15,7 @@ jobs:
       - name: Download submodules
         run: |
           git submodule update --init --recursive
+          find .
 
       - name: Compile the code
         run: |
