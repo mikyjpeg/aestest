@@ -7,7 +7,7 @@ import ctypes
 import unittest
 import random
 
-rijndael = ctypes.CDLL('./rijndael')
+rijndael = ctypes.CDLL('./rijndael.so')
 
 class FinalUnitTest(unittest.TestCase):
 #     """
